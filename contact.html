@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти — WayUp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Way<span>Up</span></a>
+      <nav>
+        <a href="index.html" data-lang="ua">Головна</a>
+        <a href="index.html" data-lang="en" style="display:none">Home</a>
+        <a href="how.html" data-lang="ua">Як працює</a>
+        <a href="how.html" data-lang="en" style="display:none">How it works</a>
+        <a href="routes.html" data-lang="ua">Маршрути</a>
+        <a href="routes.html" data-lang="en" style="display:none">Routes</a>
+        <a href="pricing.html" data-lang="ua">Тарифи</a>
+        <a href="pricing.html" data-lang="en" style="display:none">Pricing</a>
+        <a href="contact.html" class="active" data-lang="ua">Контакти</a>
+        <a href="contact.html" class="active" data-lang="en" style="display:none">Contact</a>
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="ua">UA</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding:50px 0;">
+    <div class="container">
+      <h1 data-lang="ua">Зв’яжіться з нами</h1>
+      <h1 data-lang="en" style="display:none">Contact us</h1>
+      <p data-lang="ua">Залиште заявку — і ми допоможемо створити ваш маршрут</p>
+      <p data-lang="en" style="display:none">Leave a request — and we will help create your route</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label data-lang="ua">Ім’я</label>
+          <label data-lang="en" style="display:none">Name</label>
+          <input type="text" name="name" required>
+        </div>
+        <div class="form-group">
+          <label data-lang="ua">Email або Telegram</label>
+          <label data-lang="en" style="display:none">Email or Telegram</label>
+          <input type="text" name="contact" required>
+        </div>
+        <div class="form-group">
+          <label data-lang="ua">Що вас цікавить?</label>
+          <label data-lang="en" style="display:none">What are you interested in?</label>
+          <select name="interest">
+            <option data-lang="ua" value="route">Створити маршрут</option>
+            <option data-lang="en" value="route" style="display:none">Create a route</option>
+            <option data-lang="ua" value="premium">Premium підписка</option>
+            <option data-lang="en" value="premium" style="display:none">Premium subscription</option>
+            <option data-lang="ua" value="custom">Індивідуальне планування</option>
+            <option data-lang="en" value="custom" style="display:none">Custom planning</option>
+            <option data-lang="ua" value="other">Інше</option>
+            <option data-lang="en" value="other" style="display:none">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label data-lang="ua">Повідомлення</label>
+          <label data-lang="en" style="display:none">Message</label>
+          <textarea name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;" data-lang="ua">Надіслати</button>
+        <button type="submit" class="btn btn-primary" style="width:100%;display:none;" data-lang="en">Send</button>
+      </form>
+
+      <div style="text-align:center;margin-top:40px;color:var(--text-light);">
+        <p data-lang="ua">Або напишіть нам: <strong>kkutsa228@gmail.com</strong></p>
+        <p data-lang="en" style="display:none">Or write to us: <strong>kkutsa228@gmail.com</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">Way<span style="color:#F7C6D0">Up</span></div>
+        <div class="footer-links">
+          <a href="index.html" data-lang="ua">Головна</a>
+          <a href="index.html" data-lang="en">Home</a>
+          <a href="how.html" data-lang="ua">Як працює</a>
+          <a href="how.html" data-lang="en">How it works</a>
+          <a href="routes.html" data-lang="ua">Маршрути</a>
+          <a href="routes.html" data-lang="en">Routes</a>
+          <a href="pricing.html" data-lang="ua">Тарифи</a>
+          <a href="pricing.html" data-lang="en">Pricing</a>
+        </div>
+      </div>
+      <div class="copyright">© 2026 WayUp</div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

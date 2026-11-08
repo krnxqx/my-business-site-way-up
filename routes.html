@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Маршрути — WayUp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Way<span>Up</span></a>
+      <nav>
+        <a href="index.html" data-lang="ua">Головна</a>
+        <a href="index.html" data-lang="en" style="display:none">Home</a>
+        <a href="how.html" data-lang="ua">Як працює</a>
+        <a href="how.html" data-lang="en" style="display:none">How it works</a>
+        <a href="routes.html" class="active" data-lang="ua">Маршрути</a>
+        <a href="routes.html" class="active" data-lang="en" style="display:none">Routes</a>
+        <a href="pricing.html" data-lang="ua">Тарифи</a>
+        <a href="pricing.html" data-lang="en" style="display:none">Pricing</a>
+        <a href="contact.html" data-lang="ua">Контакти</a>
+        <a href="contact.html" data-lang="en" style="display:none">Contact</a>
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="ua">UA</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding:50px 0;">
+    <div class="container">
+      <h1 data-lang="ua">Популярні маршрути</h1>
+      <h1 data-lang="en" style="display:none">Popular routes</h1>
+      <p data-lang="ua">Приклади готових маршрутів, які можна адаптувати під себе</p>
+      <p data-lang="en" style="display:none">Examples of ready routes you can adapt to your needs</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cards">
+        <div class="route-card">
+          <div class="route-img">🏔️</div>
+          <div class="route-body">
+            <h3 data-lang="ua">Карпати за 3 дні</h3>
+            <h3 data-lang="en" style="display:none">Carpathians in 3 days</h3>
+            <div class="route-meta" data-lang="ua">Львів → Яремче → Буковель → Львів</div>
+            <div class="route-meta" data-lang="en" style="display:none">Lviv → Yaremche → Bukovel → Lviv</div>
+            <span class="tag" data-lang="ua">природа</span>
+            <span class="tag" data-lang="ua">сім’я</span>
+            <span class="tag" data-lang="en" style="display:none">nature</span>
+            <span class="tag" data-lang="en" style="display:none">family</span>
+          </div>
+        </div>
+        <div class="route-card">
+          <div class="route-img">🏰</div>
+          <div class="route-body">
+            <h3 data-lang="ua">Замки Львівщини</h3>
+            <h3 data-lang="en" style="display:none">Castles of Lviv region</h3>
+            <div class="route-meta" data-lang="ua">Львів → Олесько → Підгірці → Золочів</div>
+            <div class="route-meta" data-lang="en" style="display:none">Lviv → Olesko → Pidhirtsi → Zolochiv</div>
+            <span class="tag" data-lang="ua">культура</span>
+            <span class="tag" data-lang="ua">історія</span>
+            <span class="tag" data-lang="en" style="display:none">culture</span>
+            <span class="tag" data-lang="en" style="display:none">history</span>
+          </div>
+        </div>
+        <div class="route-card">
+          <div class="route-img">🌊</div>
+          <div class="route-body">
+            <h3 data-lang="ua">Вихідні біля води</h3>
+            <h3 data-lang="en" style="display:none">Weekend by the water</h3>
+            <div class="route-meta" data-lang="ua">Київ → Канів → Черкаси</div>
+            <div class="route-meta" data-lang="en" style="display:none">Kyiv → Kaniv → Cherkasy</div>
+            <span class="tag" data-lang="ua">відпочинок</span>
+            <span class="tag" data-lang="ua">2 дні</span>
+            <span class="tag" data-lang="en" style="display:none">relax</span>
+            <span class="tag" data-lang="en" style="display:none">2 days</span>
+          </div>
+        </div>
+        <div class="route-card">
+          <div class="route-img">🍇</div>
+          <div class="route-body">
+            <h3 data-lang="ua">Гастрономічне Закарпаття</h3>
+            <h3 data-lang="en" style="display:none">Gastronomic Zakarpattia</h3>
+            <div class="route-meta" data-lang="ua">Ужгород → Мукачево → Берегово</div>
+            <div class="route-meta" data-lang="en" style="display:none">Uzhhorod → Mukachevo → Berehove</div>
+            <span class="tag" data-lang="ua">гастро</span>
+            <span class="tag" data-lang="ua">вино</span>
+            <span class="tag" data-lang="en" style="display:none">food</span>
+            <span class="tag" data-lang="en" style="display:none">wine</span>
+          </div>
+        </div>
+      </div>
+      <p style="text-align:center;margin-top:36px;color:var(--text-light);" data-lang="ua">
+        Це лише приклади. AI створить унікальний маршрут саме під вас.
+      </p>
+      <p style="text-align:center;margin-top:36px;color:var(--text-light);" data-lang="en" style="display:none">
+        These are just examples. AI will create a unique route just for you.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">Way<span style="color:#F7C6D0">Up</span></div>
+        <div class="footer-links">
+          <a href="index.html" data-lang="ua">Головна</a>
+          <a href="index.html" data-lang="en">Home</a>
+          <a href="how.html" data-lang="ua">Як працює</a>
+          <a href="how.html" data-lang="en">How it works</a>
+          <a href="pricing.html" data-lang="ua">Тарифи</a>
+          <a href="pricing.html" data-lang="en">Pricing</a>
+          <a href="contact.html" data-lang="ua">Контакти</a>
+          <a href="contact.html" data-lang="en">Contact</a>
+        </div>
+      </div>
+      <div class="copyright">© 2026 WayUp</div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
